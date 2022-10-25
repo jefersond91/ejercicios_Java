@@ -11,8 +11,8 @@ public class TestOperaciones {
         var resultado = Operaciones.sumar(5, 3);
         System.out.println("resultado int= " + resultado);
         
-        resultado = Operaciones.sumar(5, 3);
-        System.out.println("resultado double= " + resultado);
+        var resultado2 = Operaciones.sumar(5.2, 3);
+        System.out.println("resultado double= " + resultado2);
 
     }
 }
