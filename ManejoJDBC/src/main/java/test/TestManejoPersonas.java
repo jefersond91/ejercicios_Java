@@ -20,9 +20,9 @@ public class TestManejoPersonas {
 //        Persona personaActualizar = new Persona(4, "juan carlos", "mendez", "jcarlos@gmail.com", "3007475829");
 //        personaDao.actualizar(personaActualizar);
         
-        //Eliminando un objeto tipo persona
-        Persona personaEliminar = new Persona(4);
-        personaDao.Eliminar(personaEliminar);
+//        //Eliminando un objeto tipo persona
+//        Persona personaEliminar = new Persona(4);
+//        personaDao.Eliminar(personaEliminar);
         
         
         List<Persona> personas = personaDao.seleccionar();
